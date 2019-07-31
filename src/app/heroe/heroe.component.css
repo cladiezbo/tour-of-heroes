@@ -1,0 +1,20 @@
+section{
+  display: flex;
+  border: solid 1px rgb(194, 189, 189);
+  width: 200px;
+  height: 50px;
+  align-items: center;
+}
+p{
+  margin: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.text-id{
+  background-color: rgba(48, 141, 218, 0.507);
+  width: 50px;
+}
+.text-name{
+  background-color: rgb(175, 174, 174);
+  width: 150px;
+}

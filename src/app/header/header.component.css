@@ -1,0 +1,19 @@
+section{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(194, 189, 189);
+}
+div{
+  display: flex;
+  align-items: center;
+  flex-grow: 0.05;
+  justify-content: space-around;
+}
+a{
+  cursor: pointer;
+}
+@media all and (max-width:480px){
+  div{
+    flex-grow: 0.3;
+  }
+}

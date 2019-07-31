@@ -1,0 +1,12 @@
+<div *ngIf="!heroesIsEmpty()">
+  <h3>Top heroes</h3>
+  <ul>
+    <li *ngFor="let heroe of heroes">
+      <div class="wrapper-name">
+        <p class="name">{{heroe.name}}</p>
+      </div>
+    </li>
+  </ul>
+</div>
+  
+<router-outlet></router-outlet>
